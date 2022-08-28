@@ -29,6 +29,7 @@ class RegisterAction
             'first_name' => $this->data['first_name'],
             'last_name' => $this->data['last_name'],
             'email' => $this->data['email'],
+            'phone' => $this->data['phone'],
             'password' => Hash::make($this->data['password'])
         ]);
 
